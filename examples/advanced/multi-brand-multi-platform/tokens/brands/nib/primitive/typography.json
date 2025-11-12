@@ -1,7 +1,7 @@
 {
   "primitive": {
     "typography": {
-      "fontFamily": {
+      "fonts": {
         "sans": {
           "$value": "'Buenos Aires', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif",
           "$type": "fontFamily"
