@@ -8,14 +8,13 @@ const { web } = transformGroups;
 function getStyleDictionaryConfig(brand, platform) {
   return {
     source: [
-      `tokens/brands/${brand}/*.json`,
-      'tokens/globals/**/*.json',
-      `tokens/platforms/${platform}/*.json`,
+      `tokens/core/**/*.json`,
+      `tokens/brands/nib/**/*.json`,
     ],
     platforms: {
       web: {
         transformGroup: web,
-        buildPath: `build/web/${brand}/`,
+        buildPath: `build/web/nib/`,
         files: [
           {
             destination: 'tokens.scss',
@@ -25,7 +24,7 @@ function getStyleDictionaryConfig(brand, platform) {
       },
       android: {
         transformGroup: 'android',
-        buildPath: `build/android/${brand}/`,
+        buildPath: `build/android/nib/`,
         files: [
           {
             destination: 'tokens.colors.xml',
@@ -43,7 +42,7 @@ function getStyleDictionaryConfig(brand, platform) {
       },
       ios: {
         transformGroup: 'ios',
-        buildPath: `build/ios/${brand}/`,
+        buildPath: `build/ios/nib/`,
         files: [
           {
             destination: 'tokens.h',
@@ -59,10 +58,10 @@ console.log('Build started...');
 
 // PROCESS THE DESIGN TOKENS FOR THE DIFFEREN BRANDS AND PLATFORMS
 
-['brand-1', 'brand-2', 'brand-3'].map(function (brand) {
+['nib'].map(function (brand) {
   ['web', 'ios', 'android'].map(function (platform) {
     console.log('\n==============================================');
-    console.log(`\nProcessing: [${platform}] [${brand}]`);
+    console.log(`\nProcessing: [${platform}] [nib]`);
 
     const sd = new StyleDictionary(getStyleDictionaryConfig(brand, platform));
     sd.buildPlatform(platform);

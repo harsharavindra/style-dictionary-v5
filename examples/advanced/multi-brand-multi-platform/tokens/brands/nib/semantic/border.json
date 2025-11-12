@@ -1,0 +1,12 @@
+{
+  "theme": {
+    "dimension": {
+      "border": {
+        "radius": {
+          "small": { "$value": "4px", "$type": "dimension" },
+          "standard": { "$value": "8px", "$type": "dimension" }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "common": {
+    "dimension": {
+      "breakpoint": {
+        "xs": {
+          "$value": "0",
+          "$type": "dimension",
+          "$description": "Zero breakpoint. Will be renamed to common.dimension.breakpoint.zero in a future version."
+        },
+        "mini": {
+          "$value": "240px",
+          "$type": "dimension",
+          "$description": "Functional minimum breakpoint to ensure accessible reflow of content once magnified, zoomed or otherwise heavily constrained on ultra-small viewports. Will be renamed in a future version."
+        },
+        "sm": {
+          "$value": "480px",
+          "$type": "dimension",
+          "$description": "Small breakpoint, below which content is likely to be displayed on a mobile device (in portrait orientation) or equivalent viewport."
+        },
+        "md": {
+          "$value": "640px",
+          "$type": "dimension",
+          "$description": "Medium breakpoint, below which content is likely to be displayed on a mobile device (in landscape orientation) or equivalent viewport."
+        },
+        "lg": {
+          "$value": "800px",
+          "$type": "dimension",
+          "$description": "Large breakpoint, below which content is likely to be displayed on a tablet, mobile device (in landscape orientation) or equivalent viewport."
+        },
+        "xl": {
+          "$value": "960px",
+          "$type": "dimension",
+          "$description": "Extra-large breakpoint, below which content is likely to be displayed on a tablet or handheld device, small-screened desktop or laptop computer, or equivalent viewport."
+        },
+        "xxl": {
+          "$value": "1200px",
+          "$type": "dimension",
+          "$description": "Extra-large breakpoint, immediately either side of which content is likely to be displayed on a tablet, small-screened desktop or laptop computer, or equivalent viewport."
+        },
+        "xxxl": {
+          "$value": "1600px",
+          "$type": "dimension",
+          "$description": "Extra-large breakpoint, above which content is likely to be displayed on a large high definition tablet, high definition desktop computer display."
+        }
+      },
+      "spacing": {
+        "0": {
+          "$value": "0",
+          "$type": "dimension",
+          "$description": "Zero-value token for use in padding, margin, gap or other applications where preset spacing is desired."
+        },
+        "1": {
+          "$value": "0.25rem",
+          "$type": "dimension",
+          "$description": "Minimum non-zero value token for use in padding, margin, gap or other applications where preset spacing is desired."
+        },
+        "2": {
+          "$value": "0.5rem",
+          "$type": "dimension",
+          "$description": "Spacing token for use in padding, margin, gap, etc. Default value for space between inline text elements."
+        },
+        "3": {
+          "$value": "0.75rem",
+          "$type": "dimension",
+          "$description": "Spacing token for use in padding, margin, gap, etc."
+        },
+        "4": {
+          "$value": "1rem",
+          "$type": "dimension",
+          "$description": "Spacing token for use in padding, margin, gap, etc."
+        },
+        "5": {
+          "$value": "1.5rem",
+          "$type": "dimension",
+          "$description": "Spacing token for use in padding, margin, gap, etc."
+        },
+        "6": {
+          "$value": "2rem",
+          "$type": "dimension",
+          "$description": "Spacing token for use in padding, margin, gap, etc."
+        },
+        "7": {
+          "$value": "3rem",
+          "$type": "dimension",
+          "$description": "Spacing token for use in padding, margin, gap, etc. "
+        },
+        "8": {
+          "$value": "4rem",
+          "$type": "dimension",
+          "$description": "Spacing token for use in padding, margin, gap, etc. "
+        },
+        "9": {
+          "$value": "6rem",
+          "$type": "dimension",
+          "$description": "Spacing token for use in padding, margin, gap, etc. "
+        },
+        "10": {
+          "$value": "8rem",
+          "$type": "dimension",
+          "$description": "Maximum value token for use in padding, margin, gap or other applications where preset spacing is desired."
+        }
+      }
+    }
+  }
+}

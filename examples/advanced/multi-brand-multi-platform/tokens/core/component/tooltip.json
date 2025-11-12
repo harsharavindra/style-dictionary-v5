@@ -1,0 +1,16 @@
+{
+  "tooltip": {
+    "color": {
+      "bg": {
+        "$value": "{primitive.color.neutral.150}",
+        "$type": "color",
+        "$description": "Background colour for the Tooltip."
+      },
+      "fg": {
+        "$value": "{primitive.color.neutral.900}",
+        "$type": "color",
+        "$description": "Text and icon colour for the Tooltip."
+      }
+    }
+  }
+}

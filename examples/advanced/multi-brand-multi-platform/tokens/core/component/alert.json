@@ -1,0 +1,28 @@
+{
+  "alert": {
+    "color": {
+      "bg": {
+        "success": {
+          "$value": "{theme.color.bg.surface.prominent}",
+          "$type": "color",
+          "$description": "Interim background colour for alerts communicating a successful action."
+        },
+        "error": {
+          "$value": "{theme.color.bg.surface.prominent}",
+          "$type": "color",
+          "$description": "Interim background colour for alerts communicating a failed, critical or destructive action."
+        },
+        "warning": {
+          "$value": "{theme.color.bg.surface.prominent}",
+          "$type": "color",
+          "$description": "Interim background colour for alerts communicating that a user should consider their response(s), and exercise caution in proceeding."
+        },
+        "info": {
+          "$value": "{theme.color.bg.surface.prominent}",
+          "$type": "color",
+          "$description": "Interim background colour for alerts providing a user with support, insight or information relating to an action."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "productCard": {
+    "color": {
+      "$type": "color",
+      "bg": {
+        "highlight": { "$value": "{primitive.color.primary.275}" }
+      },
+      "fg": {
+        "highlight": { "$value": "{primitive.color.primary.830}" }
+      }
+    }
+  }
+}

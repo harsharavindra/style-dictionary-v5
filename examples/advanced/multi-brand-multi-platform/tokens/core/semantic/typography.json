@@ -1,0 +1,309 @@
+{
+  "theme": {
+    "typography": {
+      "fontFamily": {
+        "copy": {
+          "$value": "{primitive.typography.fontFamily}",
+          "$type": "fontFamily",
+          "$description": "Default font family for text content."
+        },
+        "heading": {
+          "$value": "{theme.typography.fontFamily.copy}",
+          "$type": "fontFamily",
+          "$description": "Default font family for headings or titles."
+        }
+      },
+      "copy": {
+        "default": {
+          "fontFamily": {
+            "$value": "{theme.typography.fontFamily.copy}",
+            "$type": "fontFamily",
+            "$description": "Default font family for text content."
+          },
+          "fontSize": {
+            "$value": "{primitive.typography.typescale.7}",
+            "$type": "dimension",
+            "$description": "Default font size for text content."
+          },
+          "fontWeight": {
+            "$value": 400,
+            "$type": "fontWeight",
+            "$description": "Default font weight for text content."
+          },
+          "lineHeight": {
+            "$value": 1.5,
+            "$type": "number",
+            "$description": "Default line height for text content."
+          },
+          "letterSpacing": {
+            "$value": "0px",
+            "$type": "dimension",
+            "$description": "Default letter spacing for text content."
+          }
+        },
+        "small": {
+          "fontFamily": {
+            "$value": "{theme.typography.fontFamily.copy}",
+            "$type": "fontFamily",
+            "$description": "Font family for small text content."
+          },
+          "fontSize": {
+            "$value": "{primitive.typography.typescale.8}",
+            "$type": "dimension",
+            "$description": "Font size for small text content."
+          },
+          "fontWeight": {
+            "$value": "{theme.typography.copy.default.fontWeight}",
+            "$type": "fontWeight",
+            "$description": "Font weight for small text content."
+          },
+          "lineHeight": {
+            "$value": "{theme.typography.copy.default.lineHeight}",
+            "$type": "number",
+            "$description": "Line height for small text content."
+          },
+          "letterSpacing": {
+            "$value": "{theme.typography.copy.default.letterSpacing}",
+            "$type": "dimension",
+            "$description": "Letter spacing for small text content."
+          }
+        },
+        "large": {
+          "fontFamily": {
+            "$value": "{theme.typography.fontFamily.copy}",
+            "$type": "fontFamily",
+            "$description": "Font family for large (non-heading) text content."
+          },
+          "fontSize": {
+            "$value": "{primitive.typography.typescale.6}",
+            "$type": "dimension",
+            "$description": "Font size for large (non-heading) text content."
+          },
+          "fontWeight": {
+            "$value": "{theme.typography.copy.default.fontWeight}",
+            "$type": "fontWeight",
+            "$description": "Font weight for large (non-heading) text content."
+          },
+          "lineHeight": {
+            "$value": "{theme.typography.copy.default.lineHeight}",
+            "$type": "number",
+            "$description": "Line height for large (non-heading) text content."
+          },
+          "letterSpacing": {
+            "$value": "{theme.typography.copy.default.letterSpacing}",
+            "$type": "dimension",
+            "$description": "Letter spacing for large (non-heading) text content."
+          }
+        },
+        "bold": {
+          "fontWeight": {
+            "$value": 700,
+            "$type": "fontWeight",
+            "$description": "Font weight for bolded copy."
+          }
+        }
+      },
+      "link": {
+        "fontWeight": {
+          "$value": 500,
+          "$type": "fontWeight",
+          "$description": "Font weight for hyperlinks."
+        }
+      },
+      "heading": {
+        "2xl": {
+          "fontFamily": {
+            "$value": "{theme.typography.fontFamily.heading}",
+            "$type": "fontFamily",
+            "$description": "Font family for extra-large headings, often (but not exclusively) corresponding to H1 in common HTML markup."
+          },
+          "fontSize": {
+            "$value": "{primitive.typography.typescale.1}",
+            "$type": "dimension",
+            "$description": "Font size for extra-large headings, often (but not exclusively) corresponding to H1 in common HTML markup."
+          },
+          "fontWeight": {
+            "$value": 700,
+            "$type": "fontWeight",
+            "$description": "Font weight for extra-large headings, often (but not exclusively) corresponding to H1 in common HTML markup."
+          },
+          "lineHeight": {
+            "$value": 1,
+            "$type": "number",
+            "$description": "Line height for extra-large headings, often (but not exclusively) corresponding to H1 in common HTML markup."
+          },
+          "letterSpacing": {
+            "$value": "{theme.typography.copy.default.letterSpacing}",
+            "$type": "dimension",
+            "$description": "Letter spacing for extra-large headings, often (but not exclusively) corresponding to H1 in common HTML markup."
+          },
+          "textTransform": {
+            "$value": "none",
+            "$type": "string",
+            "$description": "Text transform for extra-large headings, often (but not exclusively) corresponding to H1 in common HTML markup."
+          }
+        },
+        "xl": {
+          "fontFamily": {
+            "$value": "{theme.typography.heading.2xl.fontFamily}",
+            "$type": "fontFamily",
+            "$description": "Font family for extra-large headings, often (but not exclusively) corresponding to H2 in common HTML markup."
+          },
+          "fontSize": {
+            "$value": "{primitive.typography.typescale.2}",
+            "$type": "dimension",
+            "$description": "Font size for extra-large headings, often (but not exclusively) corresponding to H2 in common HTML markup."
+          },
+          "fontWeight": {
+            "$value": "{theme.typography.heading.2xl.fontWeight}",
+            "$type": "fontWeight",
+            "$description": "Font weight for extra-large headings, often (but not exclusively) corresponding to H2 in common HTML markup."
+          },
+          "lineHeight": {
+            "$value": "{theme.typography.heading.2xl.lineHeight}",
+            "$type": "number",
+            "$description": "Line height for extra-large headings, often (but not exclusively) corresponding to H2 in common HTML markup."
+          },
+          "letterSpacing": {
+            "$value": "{theme.typography.heading.2xl.letterSpacing}",
+            "$type": "dimension",
+            "$description": "Letter spacing for extra-large headings, often (but not exclusively) corresponding to H2 in common HTML markup."
+          },
+          "textTransform": {
+            "$value": "{theme.typography.heading.2xl.textTransform}",
+            "$type": "string",
+            "$description": "Text transform for extra-large headings, often (but not exclusively) corresponding to H2 in common HTML markup."
+          }
+        },
+        "lg": {
+          "fontFamily": {
+            "$value": "{theme.typography.heading.xl.fontFamily}",
+            "$type": "fontFamily",
+            "$description": "Font family for large headings, often (but not exclusively) corresponding to H3 in common HTML markup."
+          },
+          "fontSize": {
+            "$value": "{primitive.typography.typescale.3}",
+            "$type": "dimension",
+            "$description": "Font size for large headings, often (but not exclusively) corresponding to H3 in common HTML markup."
+          },
+          "fontWeight": {
+            "$value": "{theme.typography.heading.xl.fontWeight}",
+            "$type": "fontWeight",
+            "$description": "Font weight for large headings, often (but not exclusively) corresponding to H3 in common HTML markup."
+          },
+          "lineHeight": {
+            "$value": "{theme.typography.heading.xl.lineHeight}",
+            "$type": "number",
+            "$description": "Line height for large headings, often (but not exclusively) corresponding to H3 in common HTML markup."
+          },
+          "letterSpacing": {
+            "$value": "{theme.typography.heading.xl.letterSpacing}",
+            "$type": "dimension",
+            "$description": "Letter spacing for large headings, often (but not exclusively) corresponding to H3 in common HTML markup."
+          },
+          "textTransform": {
+            "$value": "{theme.typography.heading.xl.textTransform}",
+            "$type": "string",
+            "$description": "Text transform for large headings, often (but not exclusively) corresponding to H3 in common HTML markup."
+          }
+        },
+        "md": {
+          "fontFamily": {
+            "$value": "{theme.typography.heading.lg.fontFamily}",
+            "$type": "fontFamily",
+            "$description": "Font family for medium headings, often (but not exclusively) corresponding to H4 in common HTML markup."
+          },
+          "fontSize": {
+            "$value": "{primitive.typography.typescale.4}",
+            "$type": "dimension",
+            "$description": "Font size for medium headings, often (but not exclusively) corresponding to H4 in common HTML markup."
+          },
+          "fontWeight": {
+            "$value": "{theme.typography.heading.lg.fontWeight}",
+            "$type": "fontWeight",
+            "$description": "Font weight for medium headings, often (but not exclusively) corresponding to H4 in common HTML markup."
+          },
+          "lineHeight": {
+            "$value": 1.2,
+            "$type": "number",
+            "$description": "Line height for medium headings, often (but not exclusively) corresponding to H4 in common HTML markup."
+          },
+          "letterSpacing": {
+            "$value": "{theme.typography.heading.lg.letterSpacing}",
+            "$type": "dimension",
+            "$description": "Letter spacing for medium headings, often (but not exclusively) corresponding to H4 in common HTML markup."
+          },
+          "textTransform": {
+            "$value": "{theme.typography.heading.lg.textTransform}",
+            "$type": "string",
+            "$description": "Text transform for medium headings, often (but not exclusively) corresponding to H4 in common HTML markup."
+          }
+        },
+        "sm": {
+          "fontFamily": {
+            "$value": "{theme.typography.heading.md.fontFamily}",
+            "$type": "fontFamily",
+            "$description": "Font family for small headings, often (but not exclusively) corresponding to H5 in common HTML markup."
+          },
+          "fontSize": {
+            "$value": "{primitive.typography.typescale.5}",
+            "$type": "dimension",
+            "$description": "Font size for small headings, often (but not exclusively) corresponding to H5 in common HTML markup."
+          },
+          "fontWeight": {
+            "$value": "{theme.typography.heading.md.fontWeight}",
+            "$type": "fontWeight",
+            "$description": "Font weight for small headings, often (but not exclusively) corresponding to H5 in common HTML markup."
+          },
+          "lineHeight": {
+            "$value": "{theme.typography.heading.md.lineHeight}",
+            "$type": "number",
+            "$description": "Line height for small headings, often (but not exclusively) corresponding to H5 in common HTML markup."
+          },
+          "letterSpacing": {
+            "$value": "{theme.typography.heading.md.letterSpacing}",
+            "$type": "dimension",
+            "$description": "Letter spacing for small headings, often (but not exclusively) corresponding to H5 in common HTML markup."
+          },
+          "textTransform": {
+            "$value": "{theme.typography.heading.md.textTransform}",
+            "$type": "string",
+            "$description": "Text transform for small headings, often (but not exclusively) corresponding to H5 in common HTML markup."
+          }
+        },
+        "xs": {
+          "fontFamily": {
+            "$value": "{theme.typography.heading.sm.fontFamily}",
+            "$type": "fontFamily",
+            "$description": "Font family for extra-small headings, often (but not exclusively) corresponding to H6 in common HTML markup."
+          },
+          "fontSize": {
+            "$value": "{primitive.typography.typescale.6}",
+            "$type": "dimension",
+            "$description": "Font size for extra-small headings, often (but not exclusively) corresponding to H6 in common HTML markup."
+          },
+          "fontWeight": {
+            "$value": "{theme.typography.heading.sm.fontWeight}",
+            "$type": "fontWeight",
+            "$description": "Font weight for extra-small headings, often (but not exclusively) corresponding to H6 in common HTML markup."
+          },
+          "lineHeight": {
+            "$value": "{theme.typography.heading.sm.lineHeight}",
+            "$type": "number",
+            "$description": "Line height for extra-small headings, often (but not exclusively) corresponding to H6 in common HTML markup."
+          },
+          "letterSpacing": {
+            "$value": "{theme.typography.heading.sm.letterSpacing}",
+            "$type": "dimension",
+            "$description": "Letter spacing for extra-small headings, often (but not exclusively) corresponding to H6 in common HTML markup."
+          },
+          "textTransform": {
+            "$value": "{theme.typography.heading.sm.textTransform}",
+            "$type": "string",
+            "$description": "Text transform for extra-small headings, often (but not exclusively) corresponding to H6 in common HTML markup."
+          }
+        }
+      }
+    }
+  }
+}

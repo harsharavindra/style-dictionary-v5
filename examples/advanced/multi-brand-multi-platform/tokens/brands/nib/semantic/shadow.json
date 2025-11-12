@@ -1,0 +1,42 @@
+{
+  "theme": {
+    "shadow": {
+      "raised": {
+        "a": {
+          "$value": {
+            "offsetX": "-2px"
+          }
+        },
+        "b": {
+          "$value": {
+            "offsetX": "-4px"
+          }
+        }
+      },
+      "elevated": {
+        "a": {
+          "$value": {
+            "offsetX": "-4px"
+          }
+        },
+        "b": {
+          "$value": {
+            "offsetX": "-8px"
+          }
+        }
+      },
+      "floating": {
+        "a": {
+          "$value": {
+            "offsetX": "-6px"
+          }
+        },
+        "b": {
+          "$value": {
+            "offsetX": "-12px"
+          }
+        }
+      }
+    }
+  }
+}

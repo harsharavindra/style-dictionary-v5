@@ -1,0 +1,57 @@
+{
+  "theme": {
+    "dimension": {
+      "border": {
+        "radius": {
+          "none": {
+            "$value": "0",
+            "$type": "dimension",
+            "$description": "Border radius of zero - hard corners."
+          },
+          "small": {
+            "$value": "2px",
+            "$type": "dimension",
+            "$description": "Smaller than standard border radius for nested, rounded corners or more subtly rounded corners."
+          },
+          "standard": {
+            "$value": "4px",
+            "$type": "dimension",
+            "$description": "Standard (default) border radius for cards, surfaces or components."
+          },
+          "full": {
+            "$value": "9999px",
+            "$type": "dimension",
+            "$description": "Maximum border radius, for fully rounded or otherwise large cards, surfaces or components."
+          }
+        },
+        "width": {
+          "none": {
+            "$value": "0",
+            "$type": "dimension",
+            "$description": "Stroke width of zero - no visible border."
+          },
+          "fine": {
+            "$value": "1px",
+            "$type": "dimension",
+            "$description": "Fine stroke width for small elements or contexts where a border is not needed to be prominent."
+          },
+          "thin": {
+            "$value": "2px",
+            "$type": "dimension",
+            "$description": "Default stroke width for cards, dividers, utility buttons and other custom applications."
+          },
+          "medium": {
+            "$value": "4px",
+            "$type": "dimension",
+            "$description": "Medium stroke width for cards, dividers and other custom applications."
+          },
+          "thick": {
+            "$value": "8px",
+            "$type": "dimension",
+            "$description": "Thick stroke width for cards, dividers, navigation, inputs and other custom applications."
+          }
+        }
+      }
+    }
+  }
+}

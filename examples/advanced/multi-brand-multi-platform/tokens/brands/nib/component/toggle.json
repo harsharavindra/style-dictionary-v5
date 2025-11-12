@@ -1,0 +1,18 @@
+{
+  "switchToggle": {
+    "color": {
+      "track": {
+        "on": { "$value": "{primitive.color.primary.830}" }
+      },
+      "border": {
+        "on": { "$value": "{theme.color.border.default}" }
+      },
+      "icon": {
+        "on": { "$value": "{primitive.color.primary.275}" }
+      },
+      "handle": {
+        "on": { "$value": "{input.color.bg.default}" }
+      }
+    }
+  }
+}

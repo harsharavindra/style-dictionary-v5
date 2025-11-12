@@ -1,0 +1,134 @@
+{
+  "tag": {
+    "color": {
+      "bg": {
+        "default": {
+          "$value": "{theme.color.fg.default}",
+          "$type": "color",
+          "$description": "Background colour for the default variation of the Tag."
+        },
+        "prominent": {
+          "$value": "{theme.color.fg.prominent}",
+          "$type": "color",
+          "$description": "Background colour for the prominent variation of the Tag."
+        },
+        "gentle": {
+          "$value": "{theme.color.fg.gentle}",
+          "$type": "color",
+          "$description": "Background colour for the gentle variation of the Tag."
+        },
+        "muted": {
+          "$value": "{theme.color.fg.muted}",
+          "$type": "color",
+          "$description": "Background colour for the muted variation of the Tag."
+        },
+        "brand": {
+          "$value": "{theme.color.fg.brand}",
+          "$type": "color",
+          "$description": "Background colour for the brand variation of the Tag."
+        },
+        "error": {
+          "$value": "{theme.color.fg.error}",
+          "$type": "color",
+          "$description": "Background colour for the error variation of the Tag."
+        },
+        "success": {
+          "$value": "{theme.color.fg.success}",
+          "$type": "color",
+          "$description": "Background colour for the success variation of the Tag."
+        },
+        "warning": {
+          "$value": "{theme.color.fg.warning}",
+          "$type": "color",
+          "$description": "Background colour for the warning variation of the Tag."
+        },
+        "info": {
+          "$value": "{theme.color.fg.info}",
+          "$type": "color",
+          "$description": "Background colour for the info variation of the Tag."
+        }
+      },
+      "fg": {
+        "default": {
+          "$value": "{theme.color.bg.default}",
+          "$type": "color",
+          "$description": "Foreground colour for the default variation of the Tag."
+        },
+        "prominent": {
+          "$value": "{theme.color.bg.default}",
+          "$type": "color",
+          "$description": "Foreground colour for the prominent variation of the Tag."
+        },
+        "gentle": {
+          "$value": "{theme.color.bg.default}",
+          "$type": "color",
+          "$description": "Foreground colour for the gentle variation of the Tag."
+        },
+        "muted": {
+          "$value": "{theme.color.bg.default}",
+          "$type": "color",
+          "$description": "Foreground colour for the muted variation of the Tag."
+        },
+        "brand": {
+          "$value": "{theme.color.bg.default}",
+          "$type": "color",
+          "$description": "Foreground colour for the brand variation of the Tag."
+        },
+        "error": {
+          "$value": "{theme.color.bg.default}",
+          "$type": "color",
+          "$description": "Foreground colour for the error variation of the Tag."
+        },
+        "success": {
+          "$value": "{theme.color.bg.default}",
+          "$type": "color",
+          "$description": "Foreground colour for the success variation of the Tag."
+        },
+        "warning": {
+          "$value": "{theme.color.bg.default}",
+          "$type": "color",
+          "$description": "Foreground colour for the warning variation of the Tag."
+        },
+        "info": {
+          "$value": "{theme.color.bg.default}",
+          "$type": "color",
+          "$description": "Foreground colour for the info variation of the Tag."
+        }
+      }
+    },
+    "typography": {
+      "default": {
+        "fontFamily": {
+          "$value": "{theme.typography.fontFamily.copy}",
+          "$type": "fontFamily",
+          "$description": "Font family for default."
+        },
+        "fontSize": {
+          "$value": "{theme.typography.copy.small.fontSize}",
+          "$type": "dimension",
+          "$description": "Font size for default."
+        },
+        "fontWeight": {
+          "$value": "{theme.typography.copy.small.fontWeight}",
+          "$type": "fontWeight",
+          "$description": "Font weight for default."
+        },
+        "lineHeight": {
+          "$value": 1,
+          "$type": "number",
+          "$description": "Line height for default."
+        },
+        "letterSpacing": {
+          "$value": "{theme.typography.copy.small.letterSpacing}",
+          "$type": "dimension",
+          "$description": "Letter spacing for default."
+        },
+        "textTransform": {
+          "$value": "none",
+          "$type": "string",
+          "$description": "Text transform for default."
+        }
+      }
+    }
+  }
+}

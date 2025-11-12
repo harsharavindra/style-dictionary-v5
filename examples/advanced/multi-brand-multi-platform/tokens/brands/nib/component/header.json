@@ -1,0 +1,46 @@
+{
+  "header": {
+    "color": {
+      "$type": "color",
+      "bg": {
+        "nav": { "$value": "{primitive.color.neutral.900}" }
+      },
+      "fg": {
+        "nav": {
+          "default": { "$value": "{theme.color.fg.default}" },
+          "hover": { "$value": "{theme.color.fg.link.hover}" }
+        }
+      }
+    },
+    "dimension": {
+      "logo": {
+        "height": {
+          "default": { "$value": "40px" }
+        }
+      }
+    }
+  },
+  "smallHeader": {
+    "color": {
+      "bg": {
+        "invert": { "$value": "{primitive.color.primary.275}" }
+      },
+      "fg": {
+        "menu": {
+          "invert": { "$value": "{common.color.white}" }
+        },
+        "icons": {
+          "invert": { "$value": "{primitive.color.primary.830}" }
+        }
+      },
+      "border": {
+        "divider": {
+          "invert": { "$value": "{primitive.color.primary.150}" }
+        },
+        "focus": {
+          "invert": { "$value": "{primitive.color.functional.focus.750}" }
+        }
+      }
+    }
+  }
+}

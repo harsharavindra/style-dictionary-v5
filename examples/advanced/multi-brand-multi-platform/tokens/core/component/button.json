@@ -1,0 +1,445 @@
+{
+  "button": {
+    "color": {
+      "bg": {
+        "primary": {
+          "default": {
+            "$value": "{primitive.color.functional.info.200}",
+            "$type": "color",
+            "$description": "Background colour for primary buttons in a default, active state."
+          },
+          "hover": {
+            "$value": "{primitive.color.functional.info.250}",
+            "$type": "color",
+            "$description": "Background colour for primary buttons in a hovered, interactive state."
+          },
+          "active": {
+            "$value": "{primitive.color.functional.info.150}",
+            "$type": "color",
+            "$description": "Background colour for primary buttons in an active, pressed or selected state."
+          },
+          "disabled": {
+            "$value": "{primitive.color.neutral.900}",
+            "$type": "color",
+            "$description": "Background colour for primary buttons in a disabled, inactive state."
+          }
+        },
+        "secondary": {
+          "default": {
+            "$value": "{common.color.transparent}",
+            "$type": "color",
+            "$description": "Background colour for secondary buttons in a default, active state."
+          },
+          "hover": {
+            "$value": "{common.color.transparent}",
+            "$type": "color",
+            "$description": "Background colour for secondary buttons in a hovered, interactive state."
+          },
+          "active": {
+            "$value": "{common.color.transparent}",
+            "$type": "color",
+            "$description": "Background colour for secondary buttons in an active, pressed or selected state."
+          },
+          "disabled": {
+            "$value": "{common.color.transparent}",
+            "$type": "color",
+            "$description": "Background colour for secondary buttons in a disabled, inactive state."
+          }
+        },
+        "tertiary": {
+          "default": {
+            "$value": "{common.color.transparent}",
+            "$type": "color",
+            "$description": "Background colour for tertiary buttons in a default, active state."
+          },
+          "hover": {
+            "$value": "{common.color.transparent}",
+            "$type": "color",
+            "$description": "Background colour for tertiary buttons in a hovered, interactive state."
+          },
+          "active": {
+            "$value": "{common.color.transparent}",
+            "$type": "color",
+            "$description": "Background colour for tertiary buttons in an active, pressed or selected state."
+          },
+          "disabled": {
+            "$value": "{common.color.transparent}",
+            "$type": "color",
+            "$description": "Background colour for tertiary buttons in a disabled, inactive state."
+          }
+        },
+        "destructive": {
+          "default": {
+            "$value": "{common.color.transparent}",
+            "$type": "color",
+            "$description": "Background colour for destructive buttons in a default, active state."
+          },
+          "hover": {
+            "$value": "{common.color.transparent}",
+            "$type": "color",
+            "$description": "Background colour for destructive buttons in a hovered, interactive state."
+          },
+          "active": {
+            "$value": "{common.color.transparent}",
+            "$type": "color",
+            "$description": "Background colour for destructive buttons in an active, pressed or selected state."
+          },
+          "disabled": {
+            "$value": "{common.color.transparent}",
+            "$type": "color",
+            "$description": "Background colour for destructive buttons in a disabled, inactive state."
+          }
+        }
+      },
+      "fg": {
+        "primary": {
+          "default": {
+            "$value": "{primitive.color.neutral.975}",
+            "$type": "color",
+            "$description": "Text and icon colour for primary buttons in a default, active state."
+          },
+          "hover": {
+            "$value": "{primitive.color.neutral.1000}",
+            "$type": "color",
+            "$description": "Text and icon colour for primary buttons in a hovered, interactive state."
+          },
+          "active": {
+            "$value": "{primitive.color.neutral.975}",
+            "$type": "color",
+            "$description": "Text and icon colour for primary buttons in an active, pressed or selected state."
+          },
+          "disabled": {
+            "$value": "{primitive.color.neutral.750}",
+            "$type": "color",
+            "$description": "Text and icon colour for primary buttons in a disabled, inactive state."
+          }
+        },
+        "secondary": {
+          "default": {
+            "$value": "{theme.color.fg.link.default}",
+            "$type": "color",
+            "$description": "Text and icon colour for secondary buttons in a default, active state."
+          },
+          "hover": {
+            "$value": "{theme.color.fg.link.hover}",
+            "$type": "color",
+            "$description": "Text and icon colour for secondary buttons in a hovered, interactive state."
+          },
+          "active": {
+            "$value": "{theme.color.fg.link.active}",
+            "$type": "color",
+            "$description": "Text and icon colour for secondary buttons in an active, pressed or selected state."
+          },
+          "disabled": {
+            "$value": "{primitive.color.neutral.750}",
+            "$type": "color",
+            "$description": "Text and icon colour for secondary buttons in a disabled, inactive state."
+          }
+        },
+        "tertiary": {
+          "default": {
+            "$value": "{theme.color.fg.link.default}",
+            "$type": "color",
+            "$description": "Text and icon colour for destructive buttons in a default, active state."
+          },
+          "hover": {
+            "$value": "{theme.color.fg.link.hover}",
+            "$type": "color",
+            "$description": "Text and icon colour for destructive buttons in a hovered, interactive state."
+          },
+          "active": {
+            "$value": "{theme.color.fg.link.active}",
+            "$type": "color",
+            "$description": "Text and icon colour for destructive buttons in an active, pressed or selected state."
+          },
+          "disabled": {
+            "$value": "{primitive.color.neutral.750}",
+            "$type": "color",
+            "$description": "Text and icon colour for destructive buttons in a disabled, inactive state."
+          }
+        },
+        "destructive": {
+          "default": {
+            "$value": "{primitive.color.functional.error.250}",
+            "$type": "color",
+            "$description": "Text and icon colour for destructive buttons in a default, active state."
+          },
+          "hover": {
+            "$value": "{primitive.color.functional.error.200}",
+            "$type": "color",
+            "$description": "Text and icon colour for destructive buttons in a hovered, interactive state."
+          },
+          "active": {
+            "$value": "{primitive.color.functional.error.100}",
+            "$type": "color",
+            "$description": "Text and icon colour for destructive buttons in an active, pressed or selected state."
+          },
+          "disabled": {
+            "$value": "{primitive.color.neutral.750}",
+            "$type": "color",
+            "$description": "Text and icon colour for destructive buttons in a disabled, inactive state."
+          }
+        }
+      },
+      "border": {
+        "primary": {
+          "default": {
+            "$value": "{common.color.transparent}",
+            "$type": "color",
+            "$description": "Border (stroke) colour for primary buttons in a default, active state."
+          },
+          "hover": {
+            "$value": "{common.color.transparent}",
+            "$type": "color",
+            "$description": "Border (stroke) colour for primary buttons in a hovered, interactive state."
+          },
+          "active": {
+            "$value": "{common.color.transparent}",
+            "$type": "color",
+            "$description": "Border (stroke) colour for primary buttons in an active, pressed or selected state."
+          },
+          "disabled": {
+            "$value": "{common.color.transparent}",
+            "$type": "color",
+            "$description": "Border (stroke) colour for primary buttons in a disabled, inactive state."
+          }
+        },
+        "secondary": {
+          "default": {
+            "$value": "{theme.color.fg.link.default}",
+            "$type": "color",
+            "$description": "Border (stroke) colour for secondary buttons in a default, active state."
+          },
+          "hover": {
+            "$value": "{theme.color.fg.link.hover}",
+            "$type": "color",
+            "$description": "Border (stroke) colour for secondary buttons in a hovered, interactive state."
+          },
+          "active": {
+            "$value": "{theme.color.fg.link.active}",
+            "$type": "color",
+            "$description": "Border (stroke) colour for secondary buttons in an active, pressed or selected state."
+          },
+          "disabled": {
+            "$value": "{primitive.color.neutral.750}",
+            "$type": "color",
+            "$description": "Border (stroke) colour for secondary buttons in a disabled, inactive state."
+          }
+        },
+        "tertiary": {
+          "default": {
+            "$value": "{common.color.transparent}",
+            "$type": "color",
+            "$description": "Border (stroke) colour for tertiary buttons in a default, active state."
+          },
+          "hover": {
+            "$value": "{common.color.transparent}",
+            "$type": "color",
+            "$description": "Border (stroke) colour for tertiary buttons in a hovered, interactive state."
+          },
+          "active": {
+            "$value": "{common.color.transparent}",
+            "$type": "color",
+            "$description": "Border (stroke) colour for tertiary buttons in an active, pressed or selected state."
+          },
+          "disabled": {
+            "$value": "{common.color.transparent}",
+            "$type": "color",
+            "$description": "Border (stroke) colour for tertiary buttons in a disabled, inactive state."
+          }
+        },
+        "destructive": {
+          "default": {
+            "$value": "{primitive.color.functional.error.250}",
+            "$type": "color",
+            "$description": "Border (stroke) colour for destructive buttons in a default, active state."
+          },
+          "hover": {
+            "$value": "{primitive.color.functional.error.200}",
+            "$type": "color",
+            "$description": "Border (stroke) colour for destructive buttons in a hovered, interactive state."
+          },
+          "active": {
+            "$value": "{primitive.color.functional.error.100}",
+            "$type": "color",
+            "$description": "Border (stroke) colour for destructive buttons in an active, pressed or selected state."
+          },
+          "disabled": {
+            "$value": "{primitive.color.neutral.750}",
+            "$type": "color",
+            "$description": "Border (stroke) colour for destructive buttons in a disabled, inactive state."
+          }
+        }
+      }
+    },
+    "dimension": {
+      "border": {
+        "radius": {
+          "default": {
+            "$value": "4px",
+            "$type": "dimension",
+            "$description": "Border radius value for all button sizes."
+          }
+        },
+        "width": {
+          "default": {
+            "$value": "2px",
+            "$type": "dimension",
+            "$description": "Border stroke width for all button variations (primary, secondary, tertiary, destructive)."
+          }
+        }
+      },
+      "padding": {
+        "default": {
+          "horizontal": {
+            "$value": "{common.dimension.spacing.5}",
+            "$type": "dimension",
+            "$description": "Default horizontal (left and right) padding for buttons."
+          },
+          "vertical": {
+            "$value": "{common.dimension.spacing.3}",
+            "$type": "dimension",
+            "$description": "Default vertical (top and bottom) padding for buttons."
+          },
+          "gap": {
+            "$value": "{common.dimension.spacing.2}",
+            "$type": "dimension",
+            "$description": "Default gap spacing between text and icon for buttons."
+          }
+        },
+        "small": {
+          "horizontal": {
+            "$value": "{common.dimension.spacing.3}",
+            "$type": "dimension",
+            "$description": "Horizontal (left and right) padding for small buttons."
+          },
+          "vertical": {
+            "$value": "{common.dimension.spacing.2}",
+            "$type": "dimension",
+            "$description": "Vertical (top and bottom) padding for small buttons."
+          },
+          "gap": {
+            "$value": "{common.dimension.spacing.2}",
+            "$type": "dimension",
+            "$description": "Gap spacing between text and icon for small buttons."
+          }
+        },
+        "large": {
+          "horizontal": {
+            "$value": "{common.dimension.spacing.6}",
+            "$type": "dimension",
+            "$description": "Horizontal (left and right) padding for large buttons."
+          },
+          "vertical": {
+            "$value": "{common.dimension.spacing.3}",
+            "$type": "dimension",
+            "$description": "Vertical (top and bottom) padding for large buttons."
+          },
+          "gap": {
+            "$value": "{common.dimension.spacing.2}",
+            "$type": "dimension",
+            "$description": "Gap spacing between text and icon for large buttons."
+          }
+        }
+      }
+    },
+    "typography": {
+      "default": {
+        "fontFamily": {
+          "$value": "{theme.typography.copy.default.fontFamily}",
+          "$type": "fontFamily",
+          "$description": "Font family for default button."
+        },
+        "fontSize": {
+          "$value": "{theme.typography.copy.default.fontSize}",
+          "$type": "dimension",
+          "$description": "Font size for default button."
+        },
+        "fontWeight": {
+          "$value": "{theme.typography.copy.bold.fontWeight}",
+          "$type": "fontWeight",
+          "$description": "Font weight for default button."
+        },
+        "lineHeight": {
+          "$value": 1,
+          "$type": "number",
+          "$description": "Line height for default button."
+        },
+        "letterSpacing": {
+          "$value": "{theme.typography.copy.default.letterSpacing}",
+          "$type": "dimension",
+          "$description": "Letter spacing for default button."
+        },
+        "textTransform": {
+          "$value": "none",
+          "$type": "string",
+          "$description": "Text transform for default button."
+        }
+      },
+      "small": {
+        "fontFamily": {
+          "$value": "{button.typography.default.fontFamily}",
+          "$type": "fontFamily",
+          "$description": "Font family for small button."
+        },
+        "fontSize": {
+          "$value": "{theme.typography.copy.small.fontSize}",
+          "$type": "dimension",
+          "$description": "Font size for small button."
+        },
+        "fontWeight": {
+          "$value": "{button.typography.default.fontWeight}",
+          "$type": "fontWeight",
+          "$description": "Font weight for small button."
+        },
+        "lineHeight": {
+          "$value": "{button.typography.default.lineHeight}",
+          "$type": "number",
+          "$description": "Line height for small button."
+        },
+        "letterSpacing": {
+          "$value": "{button.typography.default.letterSpacing}",
+          "$type": "dimension",
+          "$description": "Letter spacing for small button."
+        },
+        "textTransform": {
+          "$value": "{button.typography.default.textTransform}",
+          "$type": "string",
+          "$description": "Text transform for small button."
+        }
+      },
+      "large": {
+        "fontFamily": {
+          "$value": "{button.typography.default.fontFamily}",
+          "$type": "fontFamily",
+          "$description": "Font family for large button."
+        },
+        "fontSize": {
+          "$value": "{theme.typography.copy.large.fontSize}",
+          "$type": "dimension",
+          "$description": "Font size for large button."
+        },
+        "fontWeight": {
+          "$value": "{button.typography.default.fontWeight}",
+          "$type": "fontWeight",
+          "$description": "Font weight for large button."
+        },
+        "lineHeight": {
+          "$value": "{button.typography.default.lineHeight}",
+          "$type": "number",
+          "$description": "Line height for large button."
+        },
+        "letterSpacing": {
+          "$value": "{button.typography.default.letterSpacing}",
+          "$type": "dimension",
+          "$description": "Letter spacing for large button."
+        },
+        "textTransform": {
+          "$value": "{button.typography.default.textTransform}",
+          "$type": "string",
+          "$description": "Text transform for large button."
+        }
+      }
+    }
+  }
+}

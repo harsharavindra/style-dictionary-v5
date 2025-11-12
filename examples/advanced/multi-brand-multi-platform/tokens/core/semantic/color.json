@@ -1,0 +1,240 @@
+{
+  "theme": {
+    "color": {
+      "bg": {
+        "default": {
+          "$value": "{primitive.color.neutral.975}",
+          "$type": "color",
+          "$description": "Base background colour for pages, cards and content."
+        },
+        "hover": {
+          "$value": "{common.color.white}",
+          "$type": "color",
+          "$description": "Background colour for hover interactions."
+        },
+        "surface": {
+          "default": {
+            "$value": "{primitive.color.neutral.1000}",
+            "$type": "color",
+            "$description": "Background colour for raised (card) UI surfaces."
+          },
+          "prominent": {
+            "$value": "{primitive.color.neutral.1000}",
+            "$type": "color",
+            "$description": "Background colour for prominent UI surfaces, interacted states or contextually important information."
+          }
+        }
+      },
+      "border": {
+        "default": {
+          "$value": "{primitive.color.neutral.500}",
+          "$type": "color",
+          "$description": "Basic border colour for dividers, cards, surfaces, etc."
+        },
+        "prominent": {
+          "$value": "{primitive.color.neutral.250}",
+          "$type": "color",
+          "$description": "Prominent border color for dividers, cards, surfaces, etc."
+        },
+        "gentle": {
+          "$value": "{primitive.color.neutral.750}",
+          "$type": "color",
+          "$description": "Softer border color for dividers, cards, surfaces, etc."
+        },
+        "muted": {
+          "$value": "{primitive.color.neutral.850}",
+          "$type": "color",
+          "$description": "Subtle border colour for dividers, cards, surfaces, etc."
+        },
+        "selected": {
+          "$value": "{primitive.color.functional.info.250}",
+          "$type": "color",
+          "$description": "Border colour to highlight selected or active interactive elements such as checkboxes, menu items, utility buttons etc."
+        },
+        "success": {
+          "$value": "{primitive.color.functional.success.250}",
+          "$type": "color",
+          "$description": "Border colour to highlight content, interactive states or elements representing a successful action, response or interaction."
+        },
+        "error": {
+          "$value": "{primitive.color.functional.error.250}",
+          "$type": "color",
+          "$description": "Border colour to highlight content, interactive states or elements representing a failed, destructive or critical action, response or interaction."
+        },
+        "warning": {
+          "$value": "{primitive.color.functional.warning.750}",
+          "$type": "color",
+          "$description": "Border colour to highlight content, interactive states or elements that communicate that a user should consider their response(s), and exercise caution in proceeding."
+        },
+        "info": {
+          "$value": "{primitive.color.functional.info.250}",
+          "$type": "color",
+          "$description": "Border colour to highlight content, interactive states or elements intended to inform or support a user."
+        },
+        "brand": {
+          "$value": "{primitive.color.functional.info.250}",
+          "$type": "color",
+          "$description": "Border colour to highlight or contain content to be linked to a brand's primary colour sentiment."
+        },
+        "focus": {
+          "$value": "{primitive.color.functional.focus.250}",
+          "$type": "color",
+          "$description": "Border colour exclusively for use in highlighting a single, active interactive element when using keyboard navigation, screen readers, or other such accessibility or usability-driven methods."
+        },
+        "product": {
+          "basic": {
+            "$value": "{theme.color.border.brand}",
+            "$type": "color",
+            "$description": "Border colour for highlighting basic health insurance products."
+          },
+          "bronze": {
+            "$value": "{primitive.color.product.bronze.600}",
+            "$type": "color",
+            "$description": "Border colour for highlighting bronze health insurance products."
+          },
+          "silver": {
+            "$value": "{primitive.color.product.silver.690}",
+            "$type": "color",
+            "$description": "Border colour for highlighting silver health insurance products."
+          },
+          "gold": {
+            "$value": "{primitive.color.product.gold.730}",
+            "$type": "color",
+            "$description": "Border colour for highlighting gold health insurance products."
+          },
+          "hospital": {
+            "$value": "{theme.color.border.brand}",
+            "$type": "color",
+            "$description": "Border colour for highlighting hospital-only health insurance products."
+          },
+          "extras": {
+            "$value": "{theme.color.border.brand}",
+            "$type": "color",
+            "$description": "Border colour for highlighting extras health insurance products."
+          },
+          "combined": {
+            "$value": "{theme.color.border.brand}",
+            "$type": "color",
+            "$description": "Border colour for highlighting combined health insurance products."
+          }
+        }
+      },
+      "fg": {
+        "default": {
+          "$value": "{primitive.color.neutral.150}",
+          "$type": "color",
+          "$description": "Primary, default foreground (text and icon) colour."
+        },
+        "prominent": {
+          "$value": "{primitive.color.neutral.50}",
+          "$type": "color",
+          "$description": "Prominent foreground colour option for headings, small text or content that should otherwise maximise contrast against its' background."
+        },
+        "gentle": {
+          "$value": "{primitive.color.neutral.200}",
+          "$type": "color",
+          "$description": "Softer foreground colour for supporting or secondary foreground content, such as text or icons."
+        },
+        "muted": {
+          "$value": "{primitive.color.neutral.250}",
+          "$type": "color",
+          "$description": "Subtle (lowest contrast) foreground colour for supporting or tertiary foreground content, such as text or icons."
+        },
+        "brand": {
+          "$value": "{primitive.color.functional.info.250}",
+          "$type": "color",
+          "$description": "Foreground colour to highlight text or graphical content linked to a brand's primary colour sentiment."
+        },
+        "sentiment": {
+          "$value": "{theme.color.fg.brand}",
+          "$type": "color",
+          "$description": "Foreground colour to highlight text or graphical content linked to the primary colour sentiment of the context."
+        },
+        "selected": {
+          "$value": "{primitive.color.functional.success.250}",
+          "$type": "color",
+          "$description": "Foreground colour to highlight selected (or active) interactive elements or content, such as in contexts like checkboxes, radios, progress steppers, tabs or utility buttons."
+        },
+        "label": {
+          "$value": "{primitive.color.functional.info.250}",
+          "$type": "color",
+          "$description": "Foreground colour for labeling inputs, content or individual elements of content or interactivity."
+        },
+        "success": {
+          "$value": "{primitive.color.functional.success.250}",
+          "$type": "color",
+          "$description": "Foreground colour to highlight content representing a successful action, response or interaction."
+        },
+        "error": {
+          "$value": "{primitive.color.functional.error.250}",
+          "$type": "color",
+          "$description": "Foreground colour to highlight content representing a failed, destructive or critical action, response or interaction."
+        },
+        "warning": {
+          "$value": "{primitive.color.neutral.150}",
+          "$type": "color",
+          "$description": "Foreground colour to highlight content that communicates that a user should consider their response(s), and exercise caution in proceeding."
+        },
+        "info": {
+          "$value": "{primitive.color.functional.info.150}",
+          "$type": "color",
+          "$description": "Foreground colour to highlight content intended to inform or support a user."
+        },
+        "heading": {
+          "2xl": {
+            "$value": "{theme.color.fg.brand}",
+            "$type": "color",
+            "$description": "Default foreground colour for page titles or extra-large headings (often but not exclusively corresponding to H1 in common HTML markup)."
+          },
+          "xl": {
+            "$value": "{theme.color.fg.brand}",
+            "$type": "color",
+            "$description": "Default foreground colour for section titles or extra-large headings (often but not exclusively corresponding to H2 in common HTML markup)."
+          },
+          "lg": {
+            "$value": "{theme.color.fg.brand}",
+            "$type": "color",
+            "$description": "Default foreground colour for large content headings (often but not exclusively corresponding to H3 in common HTML markup)."
+          },
+          "md": {
+            "$value": "{theme.color.fg.default}",
+            "$type": "color",
+            "$description": "Default foreground colour for medium content headings (often but not exclusively corresponding to H4 in common HTML markup)."
+          },
+          "sm": {
+            "$value": "{theme.color.fg.default}",
+            "$type": "color",
+            "$description": "Default foreground colour for small content headings (often but not exclusively corresponding to H5 in common HTML markup)."
+          },
+          "xs": {
+            "$value": "{theme.color.fg.default}",
+            "$type": "color",
+            "$description": "Default foreground colour for extra-small content headings (often but not exclusively corresponding to H6 in common HTML markup)."
+          }
+        },
+        "link": {
+          "default": {
+            "$value": "{primitive.color.functional.info.250}",
+            "$type": "color",
+            "$description": "Default foreground colour for hyperlinks in a default, inactive state."
+          },
+          "hover": {
+            "$value": "{primitive.color.functional.info.150}",
+            "$type": "color",
+            "$description": "Foreground colour for hyperlinks in a hovered (or focused) interactive state."
+          },
+          "active": {
+            "$value": "{primitive.color.functional.info.100}",
+            "$type": "color",
+            "$description": "Foreground colour for hyperlinks in a selected, pressed and/or active state."
+          },
+          "disabled": {
+            "$value": "{primitive.color.neutral.750}",
+            "$type": "color",
+            "$description": "Foreground colour for hyperlinks in a disabled, non-interactive state. Does not need to pass WCAG2.1 AA contrast."
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "footer": {
+    "color": {
+      "bg": {
+        "default": {
+          "$value": "{theme.color.bg.default}",
+          "$type": "color",
+          "$description": "Background colour for the Footer."
+        }
+      },
+      "fg": {
+        "default": {
+          "$value": "{theme.color.fg.default}",
+          "$type": "color",
+          "$description": "Text and icon colour for non-hyperlink items in the Footer."
+        },
+        "heading": {
+          "$value": "{theme.color.fg.brand}",
+          "$type": "color",
+          "$description": "Text and icon colour for headings in the Footer."
+        },
+        "link": {
+          "default": {
+            "$value": "{theme.color.fg.default}",
+            "$type": "color",
+            "$description": "Default foreground colour for links in the Footer when in a default, inactive state."
+          },
+          "hover": {
+            "$value": "{theme.color.fg.link.hover}",
+            "$type": "color",
+            "$description": "Foreground colour for links appearing in the SmallFooter when in a hovered (or focused) interactive state."
+          },
+          "pressed": {
+            "$value": "{theme.color.fg.link.active}",
+            "$type": "color",
+            "$description": "Foreground colour for links appearing in the SmallFooter when in a selected, pressed or active state."
+          }
+        }
+      },
+      "border": {
+        "default": {
+          "$value": "{theme.color.border.default}",
+          "$type": "color",
+          "$description": "Border (stroke) colour used for dividers inside the Footer."
+        },
+        "focus": {
+          "default": {
+            "$value": "{theme.color.border.focus}",
+            "$type": "color",
+            "$description": "Border (stroke) colour exclusively for use in highlighting any focused interactive element in the Footer."
+          }
+        }
+      }
+    }
+  },
+  "smallFooter": {
+    "color": {
+      "bg": {
+        "$value": "{footer.color.bg.default}",
+        "$type": "color",
+        "$description": "Background colour for the SmallFooter."
+      },
+      "fg": {
+        "default": {
+          "$value": "{footer.color.fg.default}",
+          "$type": "color",
+          "$description": "Default text and icon colour for the SmallFooter."
+        },
+        "link": {
+          "default": {
+            "$value": "{footer.color.fg.default}",
+            "$type": "color",
+            "$description": "Default foreground colour for links in the SmallFooter when in a default, inactive state."
+          },
+          "hover": {
+            "$value": "{footer.color.fg.link.hover}",
+            "$type": "color",
+            "$description": "Foreground colour for links appearing in the SmallFooter when in a hovered (or focused) interactive state."
+          },
+          "pressed": {
+            "$value": "{footer.color.fg.link.pressed}",
+            "$type": "color",
+            "$description": "Foreground colour for links appearing in the SmallFooter when in a selected, pressed or active state."
+          }
+        }
+      },
+      "border": {
+        "focus": {
+          "default": {
+            "$value": "{footer.color.border.focus.default}",
+            "$type": "color",
+            "$description": "Border (stroke) colour exclusively for use in highlighting any focused interactive element in the smallFooter."
+          }
+        }
+      }
+    }
+  },
+  "acknowledgement": {
+    "color": {
+      "bg": {
+        "default": {
+          "$value": "{footer.color.bg.default}",
+          "$type": "color",
+          "$description": "Background colour for the Acknowledgement of Country (bundled with the SmallFooter)."
+        }
+      },
+      "fg": {
+        "default": {
+          "$value": "{footer.color.fg.default}",
+          "$type": "color",
+          "$description": "Text and link colour for the Acknowledgement of Country (bundled with the SmallFooter)."
+        },
+        "link": {
+          "hover": {
+            "$value": "{footer.color.fg.link.hover}",
+            "$type": "color",
+            "$description": "Link hover colour for the Acknowledgement of Country (bundled with the SmallFooter)."
+          },
+          "pressed": {
+            "$value": "{footer.color.fg.link.pressed}",
+            "$type": "color",
+            "$description": "Link colour, when pressed, for the Acknowledgement of Country (bundled with the SmallFooter)."
+          }
+        }
+      },
+      "border": {
+        "focus": {
+          "$value": "{footer.color.border.focus.default}",
+          "$type": "color",
+          "$description": "Border (stroke) colour exclusively for use in highlighting any focused interactive element in the Acknowledgement of Country (bundled with the SmallFooter)."
+        }
+      }
+    },
+    "meta": {
+      "visible": {
+        "$value": false,
+        "$description": "Boolean token for selective display of the Acknowledgement of Country across brands."
+      },
+      "showImage": {
+        "$value": false,
+        "$description": "Boolean token for selective display of an image inside the Acknowledgement of Country. Currently only supported for nib's primary brand theme."
+      }
+    }
+  }
+}

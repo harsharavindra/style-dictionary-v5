@@ -1,0 +1,18 @@
+{
+  "datePicker": {
+    "color": {
+      "bg": {
+        "selected": {
+          "default": { "$value": "{primitive.color.primary.275}" }
+        },
+        "hover": { "$value": "{primitive.color.neutral.950}" }
+      },
+      "fg": {
+        "selected": {
+          "default": { "$value": "{common.color.white}" }
+        },
+        "hover": { "$value": "{theme.color.fg.default}" }
+      }
+    }
+  }
+}

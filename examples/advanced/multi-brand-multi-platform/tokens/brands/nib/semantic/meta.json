@@ -1,0 +1,7 @@
+{
+  "theme": {
+    "meta": {
+      "brand": { "$value": "nib" }
+    }
+  }
+}

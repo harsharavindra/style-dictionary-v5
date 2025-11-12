@@ -1,0 +1,18 @@
+{
+  "loader": {
+    "color": {
+      "border": {
+        "a": {
+          "$value": "{common.color.transparent}",
+          "$type": "color",
+          "$description": "Gradient stop A for the Loader."
+        },
+        "b": {
+          "$value": "{theme.color.border.brand}",
+          "$type": "color",
+          "$description": "Gradient stop B for the Loader."
+        }
+      }
+    }
+  }
+}

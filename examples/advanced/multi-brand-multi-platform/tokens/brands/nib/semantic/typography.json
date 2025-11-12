@@ -1,0 +1,98 @@
+{
+  "theme": {
+    "typography": {
+      "fontFamily": {
+        "copy": {
+          "$value": "{primitive.typography.fontFamily.sans}",
+          "$type": "fontFamily"
+        },
+        "heading": {
+          "$value": "{primitive.typography.fontFamily.sans}",
+          "$type": "fontFamily"
+        }
+      },
+      "copy": {
+        "default": {
+          "fontSize": {
+            "$value": "{primitive.typography.typescale.desktop.6}",
+            "$type": "dimension"
+          },
+          "letterSpacing": {
+            "$value": "-0.02em",
+            "$type": "dimension"
+          }
+        },
+        "small": {
+          "fontSize": {
+            "$value": "{primitive.typography.typescale.desktop.7}",
+            "$type": "dimension"
+          }
+        },
+        "large": {
+          "fontSize": {
+            "$value": "{primitive.typography.typescale.desktop.5}",
+            "$type": "dimension"
+          }
+        }
+      },
+      "heading": {
+        "2xl": {
+          "fontFamily": {
+            "$value": "{primitive.typography.fontFamily.serif}",
+            "$type": "fontFamily"
+          },
+          "fontSize": {
+            "$value": "{primitive.typography.typescale.desktop.1}",
+            "$type": "dimension"
+          },
+          "fontWeight": {
+            "$value": "{primitive.typography.fontWeight.serif.semibold}",
+            "$type": "fontWeight"
+          }
+        },
+        "xl": {
+          "fontFamily": {
+            "$value": "{primitive.typography.fontFamily.sans}",
+            "$type": "fontFamily"
+          },
+          "fontSize": {
+            "$value": "{primitive.typography.typescale.desktop.2}",
+            "$type": "dimension"
+          },
+          "fontWeight": {
+            "$value": "{primitive.typography.fontWeight.sans.semibold}",
+            "$type": "fontWeight"
+          }
+        },
+        "lg": {
+          "fontSize": {
+            "$value": "{primitive.typography.typescale.desktop.3}",
+            "$type": "dimension"
+          }
+        },
+        "md": {
+          "fontSize": {
+            "$value": "{primitive.typography.typescale.desktop.4}",
+            "$type": "dimension"
+          },
+          "fontWeight": {
+            "$value": "{primitive.typography.fontWeight.sans.bold}",
+            "$type": "fontWeight"
+          }
+        },
+        "sm": {
+          "fontSize": {
+            "$value": "{primitive.typography.typescale.desktop.6}",
+            "$type": "dimension"
+          }
+        },
+        "xs": {
+          "fontSize": {
+            "$value": "{primitive.typography.typescale.desktop.6}",
+            "$type": "dimension"
+          }
+        }
+      }
+    }
+  }
+}

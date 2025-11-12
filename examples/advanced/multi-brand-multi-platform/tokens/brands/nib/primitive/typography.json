@@ -1,0 +1,49 @@
+{
+  "primitive": {
+    "typography": {
+      "fontFamily": {
+        "sans": {
+          "$value": "'Buenos Aires', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif",
+          "$type": "fontFamily"
+        },
+        "serif": {
+          "$value": "'Grenette Pro', Georgia, serif",
+          "$type": "fontFamily"
+        }
+      },
+      "typescale": {
+        "desktop": {
+          "1": { "$value": "3.375rem", "$type": "dimension" },
+          "2": { "$value": "2.25rem", "$type": "dimension" },
+          "3": { "$value": "1.5rem", "$type": "dimension" },
+          "4": { "$value": "1.25rem", "$type": "dimension" },
+          "5": { "$value": "1.125rem", "$type": "dimension" },
+          "6": { "$value": "1rem", "$type": "dimension" },
+          "7": { "$value": "0.875rem", "$type": "dimension" }
+        }
+      },
+      "fontWeight": {
+        "sans": {
+          "default": {
+            "$value": 400,
+            "$type": "fontWeight"
+          },
+          "semibold": {
+            "$value": 600,
+            "$type": "fontWeight"
+          },
+          "bold": {
+            "$value": 700,
+            "$type": "fontWeight"
+          }
+        },
+        "serif": {
+          "semibold": {
+            "$value": 600,
+            "$type": "fontWeight"
+          }
+        }
+      }
+    }
+  }
+}

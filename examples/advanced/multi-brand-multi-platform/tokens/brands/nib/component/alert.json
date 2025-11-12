@@ -1,0 +1,12 @@
+{
+  "alert": {
+    "color": {
+      "bg": {
+        "success": { "$value": "{primitive.color.primary.975}" },
+        "error": { "$value": "{primitive.color.functional.error.950}" },
+        "warning": { "$value": "{primitive.color.functional.warning.950}" },
+        "info": { "$value": "{primitive.color.functional.info.950}" }
+      }
+    }
+  }
+}

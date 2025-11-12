@@ -1,0 +1,94 @@
+{
+  "theme": {
+    "color": {
+      "bg": {
+        "default": { "$value": "{primitive.color.sunset.900}" },
+        "hover": { "$value": "{primitive.color.sunset.950}" },
+        "surface": {
+          "default": { "$value": "{primitive.color.sunset.950}" },
+          "prominent": { "$value": "{common.color.white}" }
+        }
+      },
+      "fg": {
+        "gentle": { "$value": "{primitive.color.neutral.300}" },
+        "muted": { "$value": "{primitive.color.neutral.400}" }
+      },
+      "border": {
+        "default": { "$value": "#fab88c", "$type": "color" },
+        "prominent": { "$value": "{primitive.color.neutral.200}" },
+        "gentle": { "$value": "#ffc7a6", "$type": "color" },
+        "muted": { "$value": "#ffc7a6", "$type": "color" },
+        "error": { "$value": "{primitive.color.functional.error.500}" }
+      }
+    },
+    "meta": {
+      "modeName": { "$value": "sunset" }
+    }
+  },
+  "button": {
+    "color": {
+      "bg": {
+        "primary": {
+          "default": { "$value": "{primitive.color.primary.275}" },
+          "hover": { "$value": "{primitive.color.primary.275}" },
+          "active": { "$value": "{primitive.color.primary.200}" },
+          "disabled": {
+            "$value": "{primitive.color.primary.275}",
+            "alpha": 0.4
+          }
+        }
+      },
+      "fg": {
+        "primary": {
+          "default": { "$value": "{primitive.color.neutral.975}" },
+          "hover": { "$value": "{primitive.color.primary.830}" },
+          "active": { "$value": "{primitive.color.neutral.975}" },
+          "disabled": {
+            "$value": "{primitive.color.neutral.975}",
+            "alpha": 0.4
+          }
+        }
+      }
+    }
+  },
+  "header": {
+    "color": {
+      "bg": {
+        "nav": { "$value": "{common.color.white}" }
+      }
+    }
+  },
+  "input": {
+    "color": {
+      "bg": {
+        "default": { "$value": "{common.color.white}" }
+      }
+    }
+  },
+  "tag": {
+    "color": {
+      "fg": {
+        "default": { "$value": "{common.color.white}" },
+        "prominent": { "$value": "{common.color.white}" },
+        "gentle": { "$value": "{common.color.white}" },
+        "muted": { "$value": "{common.color.white}" }
+      }
+    }
+  },
+  "switchToggle": {
+    "color": {
+      "track": {
+        "on": { "$value": "{primitive.color.primary.275}" }
+      },
+      "border": {
+        "on": { "$value": "{common.color.transparent}" }
+      },
+      "icon": {
+        "on": { "$value": "{primitive.color.primary.830}" }
+      },
+      "handle": {
+        "on": { "$value": "{input.color.bg.default}" }
+      }
+    }
+  }
+}

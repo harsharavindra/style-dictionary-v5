@@ -1,0 +1,54 @@
+{
+  "switchToggle": {
+    "color": {
+      "track": {
+        "off": {
+          "$value": "{input.color.bg.default}",
+          "$type": "color",
+          "$description": "Background colour for the Toggle in an 'off' position."
+        },
+        "on": {
+          "$value": "{theme.color.fg.selected}",
+          "$type": "color",
+          "$description": "Background colour for the Toggle in an 'on' position."
+        }
+      },
+      "border": {
+        "off": {
+          "$value": "{theme.color.border.default}",
+          "$type": "color",
+          "$description": "Border colour for the Toggle in an 'off' position."
+        },
+        "on": {
+          "$value": "{theme.color.fg.selected}",
+          "$type": "color",
+          "$description": "Border colour for the Toggle in an 'on' position."
+        }
+      },
+      "icon": {
+        "off": {
+          "$value": "{theme.color.fg.muted}",
+          "$type": "color",
+          "$description": "Icon colour for the Toggle in an 'off' position."
+        },
+        "on": {
+          "$value": "{input.color.bg.default}",
+          "$type": "color",
+          "$description": "Icon colour for the Toggle in an 'on' position."
+        }
+      },
+      "handle": {
+        "off": {
+          "$value": "{theme.color.fg.muted}",
+          "$type": "color",
+          "$description": "handle (circular element) colour for the Toggle in an 'off' position."
+        },
+        "on": {
+          "$value": "{input.color.bg.default}",
+          "$type": "color",
+          "$description": "handle (circular element) colour for the Toggle in an 'on' position."
+        }
+      }
+    }
+  }
+}

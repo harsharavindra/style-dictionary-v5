@@ -1,0 +1,65 @@
+{
+  "formControl": {
+    "typography": {
+      "label": {
+        "fontFamily": {
+          "$value": "{theme.typography.fontFamily.copy}",
+          "$type": "fontFamily",
+          "$description": "Font family for label."
+        },
+        "fontSize": {
+          "$value": "{theme.typography.copy.default.fontSize}",
+          "$type": "dimension",
+          "$description": "Font size for label."
+        },
+        "fontWeight": {
+          "$value": "{theme.typography.copy.bold.fontWeight}",
+          "$type": "fontWeight",
+          "$description": "Font weight for label."
+        },
+        "lineHeight": {
+          "$value": "{theme.typography.copy.default.lineHeight}",
+          "$type": "number",
+          "$description": "Line height for label."
+        },
+        "letterSpacing": {
+          "$value": "{theme.typography.copy.default.letterSpacing}",
+          "$type": "dimension",
+          "$description": "Letter spacing for label."
+        },
+        "textTransform": {
+          "$value": "none",
+          "$type": "string",
+          "$description": "Text transform for label."
+        }
+      },
+      "help": {
+        "fontFamily": {
+          "$value": "{theme.typography.fontFamily.copy}",
+          "$type": "fontFamily",
+          "$description": "Font family for help."
+        },
+        "fontSize": {
+          "$value": "{theme.typography.copy.default.fontSize}",
+          "$type": "dimension",
+          "$description": "Font size for help."
+        },
+        "fontWeight": {
+          "$value": "{theme.typography.copy.default.fontWeight}",
+          "$type": "fontWeight",
+          "$description": "Font weight for help."
+        },
+        "lineHeight": {
+          "$value": "{theme.typography.copy.default.lineHeight}",
+          "$type": "number",
+          "$description": "Line height for help."
+        },
+        "letterSpacing": {
+          "$value": "{theme.typography.copy.default.letterSpacing}",
+          "$type": "dimension",
+          "$description": "Letter spacing for help."
+        }
+      }
+    }
+  }
+}

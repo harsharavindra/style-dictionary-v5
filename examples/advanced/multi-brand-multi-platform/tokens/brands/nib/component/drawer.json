@@ -1,0 +1,10 @@
+{
+  "drawer": {
+    "color": {
+      "bg": {
+        "default": { "$value": "{primitive.color.neutral.975}" },
+        "top": { "$value": "{common.color.white}" }
+      }
+    }
+  }
+}

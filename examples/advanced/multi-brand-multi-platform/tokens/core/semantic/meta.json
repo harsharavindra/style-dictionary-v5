@@ -1,0 +1,18 @@
+{
+  "theme": {
+    "meta": {
+      "brand": {
+        "$value": "core",
+        "$description": "The name of the brand theme."
+      },
+      "modeName": {
+        "$value": "default",
+        "$description": "The name of the active sentiment mode."
+      },
+      "isDark": {
+        "$value": false,
+        "$description": "Interim boolean token to facilitate smart switching of logos etc. in Figma"
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "overlay": {
+    "color": {
+      "bg": {
+        "$value": "#111111",
+        "$type": "color",
+        "$description": "Overlay fill colour used to dim or obscure content behind floating content surfaces such as the Modal or Drawer.",
+        "alpha": 0.9
+      }
+    }
+  }
+}

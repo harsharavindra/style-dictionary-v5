@@ -1,0 +1,21 @@
+{
+  "common": {
+    "color": {
+      "transparent": {
+        "$value": "transparent",
+        "$type": "color",
+        "$description": "Transparent color definition for re-use across themes."
+      },
+      "white": {
+        "$value": "#ffffff",
+        "$type": "color",
+        "$description": "Absolute white definition for re-use across themes."
+      },
+      "black": {
+        "$value": "#000000",
+        "$type": "color",
+        "$description": "Absolute black definition for re-use across themes."
+      }
+    }
+  }
+}

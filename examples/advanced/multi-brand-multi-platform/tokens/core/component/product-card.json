@@ -1,0 +1,20 @@
+{
+  "productCard": {
+    "color": {
+      "bg": {
+        "highlight": {
+          "$value": "{primitive.color.neutral.150}",
+          "$type": "color",
+          "$description": "Background fill for the highlight message that can be displayed above the ProductCard."
+        }
+      },
+      "fg": {
+        "highlight": {
+          "$value": "{primitive.color.neutral.950}",
+          "$type": "color",
+          "$description": "Text colour for the highlight message that can be displayed above the ProductCard."
+        }
+      }
+    }
+  }
+}

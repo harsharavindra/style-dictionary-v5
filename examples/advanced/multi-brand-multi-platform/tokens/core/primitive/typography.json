@@ -1,0 +1,20 @@
+{
+  "primitive": {
+    "typography": {
+      "fontFamily": {
+        "$value": "'Roboto Flex', Roboto, sans-serif",
+        "$type": "fontFamily"
+      },
+      "typescale": {
+        "1": { "$value": "2.986rem", "$type": "dimension" },
+        "2": { "$value": "2.488rem", "$type": "dimension" },
+        "3": { "$value": "2.074rem", "$type": "dimension" },
+        "4": { "$value": "1.728rem", "$type": "dimension" },
+        "5": { "$value": "1.44rem", "$type": "dimension" },
+        "6": { "$value": "1.21rem", "$type": "dimension" },
+        "7": { "$value": "1rem", "$type": "dimension" },
+        "8": { "$value": "0.875rem", "$type": "dimension" }
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "progressStepper": {
+    "color": {
+      "fg": {
+        "indicator": {
+          "active": {
+            "$value": "{theme.color.fg.selected}",
+            "$type": "color",
+            "$description": "Fill colour for active, accessed or completed nodes in the ProgressStepper indicator bar."
+          },
+          "inactive": {
+            "$value": "{primitive.color.neutral.500}",
+            "$type": "color",
+            "$description": "Fill colour for inactive, incomplete or disabled nodes in the ProgressStepper indicator bar."
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "drawer": {
+    "color": {
+      "bg": {
+        "default": {
+          "$value": "{theme.color.bg.surface.default}",
+          "$type": "color",
+          "$description": "Background colour for the navigation area of the Drawer."
+        },
+        "top": {
+          "$value": "{theme.color.bg.surface.prominent}",
+          "$type": "color",
+          "$description": "Background colour for the top area of the Drawer."
+        }
+      },
+      "fg": {
+        "top": {
+          "$value": "{theme.color.fg.brand}",
+          "$type": "color",
+          "$description": "Text and icon colour for the CTA at the top of the Drawer."
+        },
+        "menu": {
+          "$value": "{theme.color.fg.brand}",
+          "$type": "color",
+          "$description": "Text colour for top level items in the Drawer navigation stack."
+        },
+        "item": {
+          "$value": "{theme.color.fg.default}",
+          "$type": "color",
+          "$description": "Text colour for items in an expanded navigation submenu."
+        },
+        "chevron": {
+          "$value": "{theme.color.fg.gentle}",
+          "$type": "color",
+          "$description": "Icon colour for the chevron that indicates an expandable menu item in the Drawer navigation stack."
+        },
+        "close": {
+          "$value": "{theme.color.fg.muted}",
+          "$type": "color",
+          "$description": "Icon colour for the 'Close' button in the top area of the Drawer."
+        },
+        "link": {
+          "default": {
+            "$value": "{theme.color.fg.default}",
+            "$type": "color",
+            "$description": "Default foreground colour for any links appearing beneath the Drawer navigation stack when in a default, inactive state."
+          },
+          "hover": {
+            "$value": "{theme.color.fg.link.hover}",
+            "$type": "color",
+            "$description": "Foreground colour for links appearing beneath the Drawer navigation stack when in a hovered (or focused) interactive state."
+          },
+          "pressed": {
+            "$value": "{theme.color.fg.link.active}",
+            "$type": "color",
+            "$description": "Foreground colour for links appearing beneath the Drawer navigation stack when in a selected, pressed or active state."
+          }
+        }
+      },
+      "border": {
+        "divider": {
+          "$value": "{theme.color.border.muted}",
+          "$type": "color",
+          "$description": "Border (stroke) colour for dividers between top level menu items in the Drawer navigation stack."
+        },
+        "focus": {
+          "default": {
+            "$value": "{theme.color.border.focus}",
+            "$type": "color",
+            "$description": "Border (stroke) colour exclusively for use in highlighting any focused interactive element in the main area of the Drawer."
+          },
+          "top": {
+            "$value": "{theme.color.border.focus}",
+            "$type": "color",
+            "$description": "Border (stroke) colour exclusively for use in highlighting any focused interactive element in the top area of the Drawer."
+          }
+        }
+      }
+    }
+  }
+}

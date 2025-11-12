@@ -1,0 +1,11 @@
+{
+  "loader": {
+    "color": {
+      "$type": "color",
+      "border": {
+        "a": { "$value": "{primitive.color.primary.830}" },
+        "b": { "$value": "{primitive.color.primary.275}" }
+      }
+    }
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "header": {
+    "color": {
+      "bg": {
+        "nav": {
+          "$value": "{primitive.color.neutral.950}",
+          "$type": "color",
+          "$description": "Background color for the navigation strip in the desktop variation of the Header."
+        }
+      },
+      "fg": {
+        "nav": {
+          "default": {
+            "$value": "{theme.color.fg.default}",
+            "$type": "color",
+            "$description": "Text color for menu items in the navigation strip when using the desktop variation of the Header."
+          },
+          "hover": {
+            "$value": "{theme.color.fg.link.hover}",
+            "$type": "color",
+            "$description": "Text color for menu items in the navigation strip when using the desktop variation of the Header."
+          }
+        }
+      },
+      "border": {
+        "focus": {
+          "nav": {
+            "$value": "{theme.color.border.focus}",
+            "$type": "color",
+            "$description": "Border (stroke) colour exclusively for use in highlighting focused menu items in the Header navigation strip."
+          }
+        }
+      }
+    },
+    "dimension": {
+      "logo": {
+        "height": {
+          "default": {
+            "$value": "{logo.dimension.height.default}",
+            "$type": "dimension",
+            "$description": "Sets the height of the Logo, when used in the HeaderBody subcomponent."
+          },
+          "small": {
+            "$value": "{logo.dimension.height.small}",
+            "$type": "dimension",
+            "$description": "Sets the height of the Logo, when used in the Drawer or 'small' variation of the HeaderBody subcomponent."
+          },
+          "simplified": {
+            "$value": "{logo.dimension.height.small}",
+            "$type": "dimension",
+            "$description": "Sets the height of the Logo, when used in the 'simplified' variation of the HeaderBody subcomponent."
+          }
+        }
+      }
+    },
+    "meta": {
+      "logo": {
+        "variation": {
+          "default": {
+            "$value": "{logo.meta.variation.default}",
+            "$type": "meta",
+            "$description": "Sets the variation of the Logo, when used in the HeaderBody subcomponent."
+          },
+          "small": {
+            "$value": "{logo.meta.variation.default}",
+            "$type": "meta",
+            "$description": "Sets the variation of the Logo, when used in the Drawer or 'small' variation of the HeaderBody subcomponent."
+          },
+          "simplified": {
+            "$value": "{logo.meta.variation.default}",
+            "$type": "meta",
+            "$description": "Sets the variation of the Logo, when used in the 'simplified' variation of the HeaderBody subcomponent."
+          }
+        }
+      }
+    }
+  },
+  "smallHeader": {
+    "color": {
+      "bg": {
+        "default": {
+          "$value": "{primitive.color.neutral.1000}",
+          "$type": "color",
+          "$description": "Background colour for the default variation of the SmallHeader."
+        },
+        "invert": {
+          "$value": "{primitive.color.neutral.950}",
+          "$type": "color",
+          "$description": "Background colour for the inverted variation of the SmallHeader."
+        }
+      },
+      "fg": {
+        "menu": {
+          "default": {
+            "$value": "{theme.color.fg.default}",
+            "$type": "color",
+            "$description": "Menu icon colour in the default variation of the SmallHeader."
+          },
+          "invert": {
+            "$value": "{theme.color.fg.default}",
+            "$type": "color",
+            "$description": "Menu icon colour in the inverted variation of the SmallHeader."
+          }
+        },
+        "icons": {
+          "default": {
+            "$value": "{theme.color.fg.link.default}",
+            "$type": "color",
+            "$description": "Icon colour for the default variation of the SmallHeader."
+          },
+          "invert": {
+            "$value": "{theme.color.fg.link.default}",
+            "$type": "color",
+            "$description": "Icon colour for the inverted variation of the SmallHeader."
+          }
+        }
+      },
+      "border": {
+        "divider": {
+          "default": {
+            "$value": "{theme.color.border.default}",
+            "$type": "color",
+            "$description": "Border (stroke) colour for the dividers between icons in the default variation of the SmallHeader"
+          },
+          "invert": {
+            "$value": "{smallHeader.color.border.divider.default}",
+            "$type": "color",
+            "$description": "Border (stroke) colour for the dividers between icons in the inverted variation of the SmallHeader"
+          }
+        },
+        "focus": {
+          "default": {
+            "$value": "{theme.color.border.focus}",
+            "$type": "color",
+            "$description": "Border (stroke) colour exclusively for use in highlighting a focused, interactive element in the SmallHeader."
+          },
+          "invert": {
+            "$value": "{smallHeader.color.border.focus.default}",
+            "$type": "color",
+            "$description": "Border (stroke) colour exclusively for use in highlighting a focused, interactive element in the inverted variation of the SmallHeader."
+          }
+        }
+      }
+    },
+    "meta": {
+      "isDark": {
+        "default": {
+          "$value": false,
+          "$description": "Interim boolean token to indicate if the default variation of the SmallHeader has a dark-coloured background colour."
+        },
+        "invert": {
+          "$value": true,
+          "$description": "Interim boolean token to indicate if the inverted variation of the SmallHeader has a dark-coloured background colour."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "logo": {
+    "dimension": {
+      "height": {
+        "default": {
+          "$value": "48px",
+          "$type": "dimension",
+          "$description": "Sets the height of the Logo, when used in isolation. Formerly identified as 'medium'."
+        },
+        "small": {
+          "$value": "24px",
+          "$type": "dimension",
+          "$description": "Sets the height of the Logo to small, when used in isolation."
+        },
+        "large": {
+          "$value": "64px",
+          "$type": "dimension",
+          "$description": "Sets the height of the Logo to large, when used in isolation."
+        }
+      }
+    },
+    "meta": {
+      "variation": {
+        "default": {
+          "$value": "default",
+          "$type": "meta",
+          "$description": "Sets the variation of the Logo, when used in isolation."
+        }
+      },
+      "color": {
+        "default": {
+          "$value": "default",
+          "$type": "meta",
+          "$description": "Sets the color variation of the Logo, when used in isolation."
+        }
+      }
+    }
+  }
+}

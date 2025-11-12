@@ -1,0 +1,27 @@
+{
+  "theme": {
+    "color": {
+      "bg": {
+        "default": { "$value": "{primitive.color.neutral.950}" },
+        "hover": { "$value": "{primitive.color.neutral.975}" },
+        "surface": {
+          "default": { "$value": "{primitive.color.neutral.975}" }
+        }
+      },
+      "border": {
+        "gentle": { "$value": "{primitive.color.neutral.850}" },
+        "muted": { "$value": "{primitive.color.neutral.900}" }
+      }
+    },
+    "meta": {
+      "modeName": { "$value": "alt" }
+    }
+  },
+  "input": {
+    "color": {
+      "bg": {
+        "default": { "$value": "{common.color.white}" }
+      }
+    }
+  }
+}

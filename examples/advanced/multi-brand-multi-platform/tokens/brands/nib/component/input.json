@@ -1,0 +1,12 @@
+{
+  "input": {
+    "color": {
+      "bg": {
+        "default": { "$value": "{primitive.color.neutral.975}" }
+      },
+      "border": {
+        "default": { "$value": "{primitive.color.neutral.250}" }
+      }
+    }
+  }
+}

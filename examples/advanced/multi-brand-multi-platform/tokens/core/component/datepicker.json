@@ -1,0 +1,44 @@
+{
+  "datePicker": {
+    "color": {
+      "bg": {
+        "selected": {
+          "default": {
+            "$value": "{theme.color.fg.selected}",
+            "$type": "color",
+            "$description": "Background colour for an active or selected date in the DatePicker."
+          },
+          "hover": {
+            "$value": "{datePicker.color.bg.selected.default}",
+            "$type": "color",
+            "$description": "Background colour for when hovering on an active or selected date in the DatePicker."
+          }
+        },
+        "hover": {
+          "$value": "{theme.color.fg.muted}",
+          "$type": "color",
+          "$description": "Background colour for a date while hovered in the DatePicker."
+        }
+      },
+      "fg": {
+        "selected": {
+          "default": {
+            "$value": "{theme.color.bg.surface.prominent}",
+            "$type": "color",
+            "$description": "Foreground colour for an active or selected date in the DatePicker."
+          },
+          "hover": {
+            "$value": "{datePicker.color.fg.selected.default}",
+            "$type": "color",
+            "$description": "Foreground colour for when hovering an active or selected date in the DatePicker."
+          }
+        },
+        "hover": {
+          "$value": "{theme.color.bg.surface.prominent}",
+          "$type": "color",
+          "$description": "Foreground colour for date while hovered in the DatePicker."
+        }
+      }
+    }
+  }
+}

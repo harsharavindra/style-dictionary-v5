@@ -1,0 +1,11 @@
+{
+  "progressStepper": {
+    "color": {
+      "fg": {
+        "indicator": {
+          "inactive": { "$value": "{primitive.color.neutral.750}" }
+        }
+      }
+    }
+  }
+}

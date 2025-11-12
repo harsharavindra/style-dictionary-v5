@@ -1,0 +1,20 @@
+{
+  "tag": {
+    "color": {
+      "bg": {
+        "brand": { "$value": "{primitive.color.primary.830}" },
+        "success": { "$value": "{primitive.color.primary.275}" },
+        "error": { "$value": "{primitive.color.functional.error.250}" },
+        "warning": { "$value": "{primitive.color.functional.warning.750}" },
+        "info": { "$value": "{primitive.color.functional.info.250}" }
+      },
+      "fg": {
+        "brand": { "$value": "{primitive.color.primary.275}" },
+        "success": { "$value": "{common.color.white}" },
+        "error": { "$value": "{common.color.white}" },
+        "warning": { "$value": "{primitive.color.neutral.150}" },
+        "info": { "$value": "{common.color.white}" }
+      }
+    }
+  }
+}

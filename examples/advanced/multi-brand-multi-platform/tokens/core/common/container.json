@@ -1,0 +1,23 @@
+{
+  "common": {
+    "dimension": {
+      "container": {
+        "narrow": {
+          "$value": "50rem",
+          "$type": "dimension",
+          "$description": "Narrow container max-width for horizontally constraining content."
+        },
+        "default": {
+          "$value": "75rem",
+          "$type": "dimension",
+          "$description": "Default container max-width for horizontally constraining content."
+        },
+        "wide": {
+          "$value": "100rem",
+          "$type": "dimension",
+          "$description": "Wide container max-width for horizontally constraining content."
+        }
+      }
+    }
+  }
+}
