@@ -3,11 +3,11 @@
     "typography": {
       "fontFamily": {
         "copy": {
-          "$value": "{primitive.typography.fontFamily.sans}",
+          "$value": "{primitive.typography.fonts.sans}",
           "$type": "fontFamily"
         },
         "heading": {
-          "$value": "{primitive.typography.fontFamily.sans}",
+          "$value": "{primitive.typography.fonts.sans}",
           "$type": "fontFamily"
         }
       },
@@ -38,7 +38,7 @@
       "heading": {
         "2xl": {
           "fontFamily": {
-            "$value": "{primitive.typography.fontFamily.serif}",
+            "$value": "{primitive.typography.fonts.serif}",
             "$type": "fontFamily"
           },
           "fontSize": {
@@ -52,7 +52,7 @@
         },
         "xl": {
           "fontFamily": {
-            "$value": "{primitive.typography.fontFamily.sans}",
+            "$value": "{primitive.typography.fonts.sans}",
             "$type": "fontFamily"
           },
           "fontSize": {

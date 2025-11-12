@@ -64,6 +64,7 @@ console.log('Build started...');
     console.log(`\nProcessing: [${platform}] [nib]`);
 
     const sd = new StyleDictionary(getStyleDictionaryConfig(brand, platform));
+    sd.log.verbosity = 'verbose'
     sd.buildPlatform(platform);
   });
 });
